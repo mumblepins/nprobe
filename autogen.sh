@@ -455,11 +455,11 @@ fi
 
 echo "8. Downloading nDPI..."
 
-NDPI_URL=https://svn.ntop.org/svn/ntop/trunk/nDPI/
+NDPI_URL=https://github.com/ntop/nDPI.git
 if test -d nDPI; then
     echo "nDPI already available"
 else
-    svn co $NDPI_URL
+    git clone $NDPI_URL
 
     if test -d nDPI; then
 	echo "nDPI is now available"
