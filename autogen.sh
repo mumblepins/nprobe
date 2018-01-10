@@ -470,6 +470,7 @@ else
 	exit
     fi
 fi
+    cd nDPI; git pull; git checkout 09c137b27a16820cf872e4adb098a326b6c369c1; cd -
 
 if test -f ./nDPI/src/lib/.libs/libndpi.a; then
     echo "nDPI already compiled"
