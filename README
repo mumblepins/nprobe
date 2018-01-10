@@ -9,7 +9,7 @@ Mandatory Packages (Ubuntu/Debian)
 In order to compile nProbe on Linux you need some mandatory packages/tools. Below we list those
 needed on Ubuntu/Debian platforms
 
-# apt-get install build-essential bison flex linux-headers-$(uname -r) libtool automake autoconf subversion libpcap-dev wget
+# apt-get install build-essential bison flex linux-headers-$(uname -r) libtool automake autoconf git subversion libpcap-dev wget
 
 Build Steps
 ===========
