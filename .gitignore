@@ -35,4 +35,4 @@ version.c
 
 plugins/Makefile
 plugins/Makefile.in
-
+*~
